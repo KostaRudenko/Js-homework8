@@ -1,0 +1,41 @@
+.todoInput {
+  padding: 10px;
+  border: 2px solid rgb(103, 117, 199);
+}
+.addTodoBtn {
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0;
+  outline: none;
+  background:  rgb(103, 117, 199);
+  border: 2px solid rgb(103, 117, 199);
+  color: #fff;
+}
+.addTodoBtn:hover {
+  border: 2px solid rgb(103, 117, 199);
+  background:  rgb(69, 89, 189);
+  cursor: pointer
+}
+.todoList {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+}
+.todoItem {
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background:  rgb(103, 117, 199);
+  display: table
+}
+.todoItem button {
+  margin-left: 20px;
+  cursor: pointer;
+  background: rgb(248, 110, 110);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+.todoItem span {
+  vertical-align: middle;
+}
