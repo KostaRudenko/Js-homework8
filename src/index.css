@@ -38,4 +38,5 @@
 }
 .todoItem span {
   vertical-align: middle;
+  text-decoration-color: red!important;
 }
